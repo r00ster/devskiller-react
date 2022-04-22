@@ -1,0 +1,75 @@
+.Products {
+  display: flex;
+}
+
+#product-list {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+input[type=text], input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #72bcd4;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #72bcd4;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 1em 1em;
+}
+
+ul li {
+  padding: 0.25em;
+  border: 1px solid gray;
+  margin: 0.5em 0;
+  border-radius: 3px;
+  width: 100%;
+}
+
+#list-item {
+  left: 0px;
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
